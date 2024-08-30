@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnH/PRJZY2HEl2lM4A1BUX/gFqZrX2F0EEO2Zuc6cRnOGZWPhPCBl9iDwhkzGQ0gzgFvHGx8w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Project</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h4 class="title">Live User Filter</h4>
+        <small class="subtitle">Search by name and/or location</small>
+        <div class="search-container">
+          <input type="text" id="filter" placeholder="Search" />
+          <i class="fas fa-search search-icon"></i>
+        </div>
+      </header>
+
+      <ul id="result" class="user-list">
+        <li>
+          <h3>Loading...</h3>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
